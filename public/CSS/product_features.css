@@ -1,0 +1,548 @@
+/* ---------------------------------- Navbar ---------------------------------- */
+
+.navbar {
+    position: relative;
+    display: flex;
+    width: 1242px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 75px;
+    z-index: 2;
+}
+
+.nav-links a {
+    font-style: normal;
+    font-family: 'Inter';
+    text-decoration: none;
+    color: rgb(54, 145, 250);
+}
+
+.nav-links a:hover {
+    color: rgb(0, 88, 189);
+    transition: 0.3s ease;
+}
+
+
+/* Navbar logo */
+
+.logo {
+    position: fixed;
+    padding: 10px;
+}
+
+
+/* Navbar Content */
+
+.menu {
+    display: flex;
+    padding: 6px;
+    position: fixed;
+    margin-left: 297px;
+    margin-right: 260px;
+    gap: 1em;
+    font-size: 15px;
+}
+
+.menu li {
+    padding: 5px 8px;
+    list-style-type: none;
+}
+
+#nav_bar_rectangle {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    height: 85px;
+    width: 100%;
+    backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.755);
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25);
+}
+
+
+/* Navbar Buttons */
+
+#btn-sign-up {
+    position: fixed;
+    background-color: #3A94FA;
+    border: none;
+    color: white;
+    width: 120px;
+    height: 38px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    margin-left: 981px;
+    top: 19px;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-style: normal;
+    font-family: 'Inter';
+    font-size: 14px;
+}
+
+#btn-sign-up:hover {
+    transition: 0.1s;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #3A94FA;
+    background-color: #1677d8;
+}
+
+#btn-log-in {
+    position: fixed;
+    background-color: #ffffff;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #3A94FA;
+    color: #3A94FA;
+    width: 120px;
+    height: 38px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    margin-left: 1095px;
+    top: 19px;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-style: normal;
+    font-family: 'Inter';
+    font-size: 14px;
+}
+
+#btn-log-in:hover {
+    transition: 0.1s;
+    background-color: #eaf2fa;
+}
+
+
+/* ---------------------------------- Body ---------------------------------- */
+
+h1 {
+    margin-top: 100px;
+    font-size: 40pt;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 50%;
+    /* or 50% */
+    text-align: center;
+    color: #454141;
+}
+
+h2 {
+    margin-top: 85px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 24px;
+    /* or 67% */
+    color: #454141;
+}
+
+
+/* ---------------------------------- Registration ---------------------------------- */
+
+#download {
+    width: 40px;
+    height: 40px;
+    margin-left: 20px;
+}
+
+#image1 {
+    width: 93%;
+    height: 93%;
+    margin-top: 30px;
+}
+
+.registration-image {
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+}
+
+.registration-text li {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25.5px;
+    line-height: 24px;
+    color: #454141;
+}
+
+.registration-logo {
+    display: flex;
+    margin-top: 55px;
+    height: 100%;
+}
+
+.registration-logo img {
+    margin-left: 15px;
+}
+
+.registration-logo li {
+    margin-top: 5px;
+}
+
+.registration-text h3 {
+    margin-top: 30px;
+    margin-left: 37px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 25;
+    font-size: 21.25px;
+    line-height: 24px;
+    color: #6a6868;
+}
+
+
+/* ---------------------------------- Invoicing ---------------------------------- */
+
+#credit_card {
+    width: 40px;
+    height: 25px;
+    margin-top: 4px;
+    margin-left: 20px;
+}
+
+#image2 {
+    margin-top: 17px;
+    width: 80%;
+    height: 80%;
+}
+
+.invoicing-image {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.invoicing-text li {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25.5px;
+    line-height: 24px;
+    color: #454141;
+}
+
+.invoicing-logo {
+    display: flex;
+    margin-top: 90px;
+    height: 100%;
+}
+
+.invoicing-logo li {
+    margin-top: 5px;
+}
+
+.invoicing-text h3 {
+    margin-top: 30px;
+    margin-left: 37px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 25;
+    font-size: 21.25px;
+    line-height: 24px;
+    color: #6a6868;
+}
+
+
+/* ---------------------------------- Rostering and Scheduling ---------------------------------- */
+
+.rost-shed {
+    display: flex;
+    position: relative;
+    margin-top: 50px;
+}
+
+
+/* ---------------------------------- Rostering ---------------------------------- */
+
+#excel-table {
+    width: 30px;
+    height: 40px;
+}
+
+#image3 {
+    margin-top: 30px;
+    width: 90%;
+    height: 90%;
+}
+
+.rostering-image {
+    margin-left: 11px;
+    text-align: center;
+    width: 92%;
+}
+
+.rostering-text li {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25.5px;
+    line-height: 24px;
+    color: #454141;
+}
+
+.rostering-logo {
+    display: flex;
+    margin-top: 55px;
+    height: 100%;
+}
+
+.rostering-logo img {
+    margin-top: -13px;
+    margin-left: 20px;
+}
+
+.rostering-logo li {
+    margin-top: -5px;
+}
+
+.rostering-text h3 {
+    margin-top: 23px;
+    margin-left: 37px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 25;
+    font-size: 21.25px;
+    line-height: 24px;
+    color: #6a6868;
+}
+
+
+/* ---------------------------------- Scheduling ---------------------------------- */
+
+#agenda {
+    width: 50px;
+    height: 45px;
+    margin-left: 20px;
+}
+
+#image4 {
+    margin-top: 30px;
+    width: 80%;
+    height: 80%;
+}
+
+.scheduling-image {
+    margin-left: 60px;
+    text-align: center;
+    width: 90%;
+}
+
+.scheduling-text li {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25.5px;
+    line-height: 24px;
+    color: #454141;
+    margin-left: 120px;
+}
+
+.scheduling-logo {
+    display: flex;
+    margin-top: 45px;
+    height: 100%;
+}
+
+.scheduling-logo img {
+    margin-left: 0px;
+}
+
+.scheduling-logo li {
+    margin-top: 5px;
+}
+
+.scheduling-text h3 {
+    margin-top: 15px;
+    margin-left: 150px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 25;
+    font-size: 21.25px;
+    line-height: 24px;
+    color: #6a6868;
+}
+
+
+/* ---------------------------------- Forum ---------------------------------- */
+
+.forum {
+    margin-top: 80px;
+}
+
+#image5 {
+    margin-top: 30px;
+    width: 100%;
+    height: 100%;
+}
+
+.forum-image {
+    margin-left: 100px;
+    width: 50%;
+}
+
+.forum-text li {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25.5px;
+    line-height: 24px;
+    color: #454141;
+}
+
+.forum-logo {
+    display: flex;
+    margin-top: 55px;
+    height: 100%;
+}
+
+.forum-logo img {
+    margin-left: 0px;
+}
+
+.forum-logo li {
+    margin-top: 5px;
+}
+
+.forum-text h3 {
+    margin-top: 30px;
+    margin-left: 37px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 25;
+    font-size: 21.25px;
+    line-height: 24px;
+    color: #6a6868;
+}
+
+.forum-button {
+    width: 30%;
+    margin-left: 35px;
+}
+
+.forum-button h3 {
+    position: relative;
+    top: 80px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 25px;
+    line-height: 24px;
+    color: #454141;
+}
+
+#button1,
+#button2 {
+    line-height: 22pt;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    color: white;
+    background: #3A94FA;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    position: relative;
+    height: 50px;
+    text-align: center;
+}
+
+#button2 {
+    margin-top: 100px;
+    width: 260px;
+}
+
+#button1 {
+    position: relative;
+    top: 80px;
+    width: 210px;
+}
+
+#button1:hover {
+    cursor: pointer;
+    transition: 0.1s;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #3A94FA;
+    background-color: #1677d8;
+}
+
+#button2:hover {
+    transition: 0.1s;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #3A94FA;
+    background-color: #1677d8;
+}
+
+.img-button {
+    position: relative;
+    top: 30px;
+    display: flex;
+    width: auto;
+}
+
+.container {
+    position: relative;
+    display: block;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* ---------------------------------- Footer ---------------------------------- */
+
+hr {
+    position: relative;
+    top: 125px;
+    border-color: #ffffff;
+    background-color: #D6D6D6;
+}
+
+.footer ul {
+    position: relative;
+    display: flex;
+    top: 130px;
+    gap: 3em;
+    text-align: right;
+    list-style-position: inside;
+    left: 632px;
+}
+
+.footer ul a {
+    text-decoration: none;
+    font-family: 'Inter';
+    background-position: 100%;
+    font-size: 14px;
+    color: rgb(54, 145, 250);
+}
+
+.footer ul a:hover {
+    color: rgb(0, 88, 189);
+    transition: 0.3s ease;
+}
+
+.footer img {
+    position: relative;
+    top: 180px;
+    margin-left: 0px;
+}
+
+.footer li {
+    margin-bottom: 100px;
+    list-style-type: none;
+}
+
+html {
+    overflow-x: hidden;
+}
